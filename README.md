@@ -1,6 +1,15 @@
 # JavaScript Tutorial Projects
 
-This repository contains my progress through [Dave Gray's JavaScript Tutorial](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6Mx9fd9elt80G1bPcySmWit). Each folder represents a lesson or project demonstrating JavaScript fundamentals and modern best practices.
+This repository contains my progress through [Dave Gray's JavaScript Tutorial](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6Mx9fd9elt80G1bPcySmWit).
+Each folder represents a lesson or project demonstrating JavaScript fundamentals and modern best practices.
+
+---
+
+## 🌐 GitHub Pages Link
+
+[https://farazpc3.github.io/my-dave-grey-js-tutorial/](https://farazpc3.github.io/my-dave-grey-js-tutorial/)
+
+---
 
 ## 📁 Project Structure
 
