@@ -1,21 +1,60 @@
+/* ===============================
+   Reset & Fonts
+================================== */
 @import url('reset.css');
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url('../fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* ===============================
+   Root Variables
+================================== */
 :root {
-  --body-backgroud-color: #000;
+  --body-background-color: #000;
   --body-font-color: #fff;
 }
 
-html {
+/* ===============================
+   Base Elements
+================================== */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
-  width: 100%;
-  font-size: 16px;
-  background-color: var(--body-backgroud-color);
-  color: var(--body-font-color)
+  background-color: var(--body-background-color);
+  color: var(--body-font-color);
 }
 
+/* ===============================
+   Layout
+================================== */
 main {
   height: 100vh;
   display: flex;
@@ -24,6 +63,10 @@ main {
   align-items: center;
 }
 
+/* ===============================
+   Typography
+================================== */
 h1 {
   font-size: 2.5rem;
+  font-weight: normal;
 }
