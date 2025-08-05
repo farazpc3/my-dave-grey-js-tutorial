@@ -5,6 +5,9 @@
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
     "ritwickdey.liveserver",
-    "xabikos.JavaScriptSnippets"
+    "xabikos.JavaScriptSnippets",
+    "aaron-bond.better-comments",               // For clearer, color-coded comments
+    "pkief.material-icon-theme",                // Polished folder/file icons
+    "ShivaPrasanth.vscode-always-sidebar"
   ]
 }

@@ -2,6 +2,10 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.suggestFontSize": 12,
+  "editor.suggestLineHeight": 18,
+  "editor.suggest.preview": false,
   "files.autoSave": "onWindowChange",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -10,5 +14,10 @@
   "prettier.singleQuote": true,
   "prettier.semi": true,
   "prettier.tabWidth": 2,
-  "prettier.trailingComma": "es5"
+  "prettier.trailingComma": "es5",
+  "workbench.colorCustomizations": {
+    "editorSuggestWidget.background": "#00000090",
+    "editorSuggestWidget.border": "#00000000",
+    "editorSuggestWidget.selectedBackground": "#33333380"
+  }
 }

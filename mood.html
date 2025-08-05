@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html {
+      font-family:'Times New Roman', Times, serif;
+      font-size: 2rem;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      min-width: 100%;
+      min-height: 80vh;
+      background-color:#222;
+      color:#fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    main , header, footer {
+      min-width: 90%;
+      background-color: #500;
+      border-radius: 4em;
+      padding: 2em;
+      margin: 1em 3em;
+
+    }
+    main {
+      text-align: center;
+    }
+
+    legend {
+      color: rgba(255, 255, 0, 0.493);
+      font-style: italic;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bolder;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .radio {
+      margin:auto;
+      max-width:50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+    label {
+      font-size: 0.7em;
+    }
+    label:first-child() {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>my mini project</h1>
+  </header>
+  <main>
+  <form action="" id="mood-tracker">
+    <legend>Mood tracker</legend><hr>
+    <label for="mood">Mood input</label><br>
+    <div class="radio">
+    <label for="happy">Happy</label>
+    <input type="radio" name="mood" value="happy" id="happy" required>
+    <label for="sad">Sad</label>
+    <input type="radio" name="mood" value="sad" id="sad">
+    <label for="tired">Tired</label>
+    <input type="radio" name="mood" value="tired" id="tired">
+    <label for="angry">Angry</label>
+    <input type="radio" name="mood" value="angry" id="angry">
+    <label for="excited">Excited</label>
+    <input type="radio" name="mood" value="excited" id="excited"><br>
+    </div>
+    <button form="mood-tracker" type="submit">Submit</button>
+  </form>
+  </main>
+  <footer>
+    &copy; 2025 my mini project
+  </footer>
+  <script>
+    function motivationalMessage(mood) {
+      switch (mood) {
+        case 'happy':
+          return 'Keep smiling and spreading joy!';
+        case 'sad':
+          return 'It’s okay to feel sad. Take a moment for yourself.';
+        case 'tired':
+          return 'Rest is important. Take a break and recharge.';
+        case 'angry':
+          return 'Take a deep breath. It’s okay to feel angry sometimes.';
+        case 'excited':
+          return 'That’s great! Channel that excitement into something productive.';
+        default:
+          return 'Every mood is valid. Acknowledge it and move forward.';
+      }
+    }
+  </script>
+</body>
+</html>
